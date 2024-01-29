@@ -40,9 +40,16 @@ const struct ltc_cipher_descriptor des3_desc =
     NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL
 };
 
+// static const ulong32 bytebit[8] =
+// {
+//     0200, 0100, 040, 020, 010, 04, 02, 01
+// };
+
+
+/* For some reason, this is flipped in Graal. */
 static const ulong32 bytebit[8] =
 {
-    0200, 0100, 040, 020, 010, 04, 02, 01
+    01, 02, 04, 10, 020, 040, 0100, 0200
 };
 
 static const ulong32 bigbyte[24] =
