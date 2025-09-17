@@ -79,6 +79,7 @@
    #define LTC_RIJNDAEL
    #define LTC_BLOWFISH
    #define LTC_DES
+   #define LTC_DESGR
    #define LTC_SM4
    #define LTC_CAST5
 
@@ -195,6 +196,7 @@
 /* #define LTC_TWOFISH_SMALL */
 /* LTC_DES includes EDE triple-DES */
 #define LTC_DES
+#define LTC_DESGR
 #define LTC_SM4
 #define LTC_CAST5
 #define LTC_NOEKEON

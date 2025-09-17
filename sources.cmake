@@ -8,6 +8,7 @@ src/ciphers/blowfish.c
 src/ciphers/camellia.c
 src/ciphers/cast5.c
 src/ciphers/des.c
+src/ciphers/desgr.c
 src/ciphers/idea.c
 src/ciphers/kasumi.c
 src/ciphers/khazad.c
@@ -116,6 +117,7 @@ src/headers/tomcrypt.h
 src/headers/tomcrypt_argchk.h
 src/headers/tomcrypt_cfg.h
 src/headers/tomcrypt_cipher.h
+src/headers/tomcrypt_cipher_gr.h
 src/headers/tomcrypt_custom.h
 src/headers/tomcrypt_hash.h
 src/headers/tomcrypt_mac.h

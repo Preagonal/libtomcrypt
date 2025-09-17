@@ -62,6 +62,7 @@ timing.exe
 # ignore VS intermediate and program database files
 *.idb
 *.pdb
+.vs
 
 # Eclipse special files
 .project
